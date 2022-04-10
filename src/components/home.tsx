@@ -14,6 +14,8 @@ import image8 from '../assets/images/img8.jpg';
 import image9 from '../assets/images/img9.jpg';
 import mylogo from  '../assets/images/movie-logo.png';
 
+import Footer from './footer';
+
 
 import '../App.css';
 
@@ -26,6 +28,7 @@ export default function Home() {
 
 
     return (
+    
         <div className="page">
             <Navbar className="Nav"collapse OnSelect expand="lg" bg="dark" variant="dark" >
   <Container >
@@ -141,9 +144,12 @@ export default function Home() {
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
 
             
-
+          
         </div>
-
+        
+        
         
     )
+
+    
 }

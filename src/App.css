@@ -448,11 +448,58 @@ padding-left: 0%;
     font-style: italic;
     font-variant-ligatures: common-ligatures;
     font-family: sans-serif;
-   
+    
     padding-top: 20px;
     align-self: auto;
   }
 
+  .Card2{
+    border-radius: 10%;
+   
+    border-color: lightslategrey;
+    margin: 10px;
+    padding: 22px;
+    background: linear-gradient(90deg, rgb(241, 247, 250) 0%, rgb(177, 160, 163), rgb(194, 203, 208));   height: 550px;
+    font-size: medium;
+    justify-content: center;
+    align-content: space-between;
+   
+  }
+
+  .my-form3{
+    display:flex;
+    flex-wrap:wrap;
+    background-image: url(assets/images/back.png.jpg);    height:650px;
+    justify-content: center;
+    align-content: space-between;
+    gap:10px;
+    font-style: italic;
+    font-variant-ligatures: common-ligatures;
+    font-family: sans-serif;
+   
+    padding-top: 20px;
+    align-self: auto;
+
+  
+  
+
+
+
+}
+.Card4{
+  border-radius: 30%;
+  display: flex;
+  text-align: center;
+  
+  
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(90deg, rgb(241, 247, 250) 0%, rgb(177, 160, 163), rgb(87, 98, 104));    height: 50px;
+  
+  justify-content: center;
+  align-items: center;
+
+
+}
   
 
 }

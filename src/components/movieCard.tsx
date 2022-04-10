@@ -48,7 +48,7 @@ export default function MovieCard() {
             <Card.Subtitle >
               {movie.description}
             </Card.Subtitle>
-            <Button onClick={() => { dispatch(addToCart(movie)); }} value={movie.title} variant="secondary" >Add to Favorites</Button>
+          
           </Card.Body>
         </Card>
         <div className="Card4">
